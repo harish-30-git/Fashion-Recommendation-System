@@ -1,0 +1,28 @@
+{
+  "eval_cutoff_k": 10,
+  "test_users_count": 50,
+  "catalog_size": 1000,
+  "results": {
+    "Popularity Baseline": {
+      "Precision@10": 0.002,
+      "Recall@10": 0.0067,
+      "NDCG@10": 0.0047,
+      "Coverage": 0.012,
+      "Intra-List Diversity": 0.9515
+    },
+    "Content-Based": {
+      "Precision@10": 0.028,
+      "Recall@10": 0.1,
+      "NDCG@10": 0.0558,
+      "Coverage": 0.37,
+      "Intra-List Diversity": 0.7048
+    },
+    "Hybrid Recommender": {
+      "Precision@10": 0.034,
+      "Recall@10": 0.115,
+      "NDCG@10": 0.0639,
+      "Coverage": 0.352,
+      "Intra-List Diversity": 0.7211
+    }
+  }
+}
