@@ -2,6 +2,10 @@
 .env
 *.env
 
+# Node / JS
+node_modules/
+dist/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -9,7 +13,6 @@ __pycache__/
 venv/
 .venv/
 *.egg-info/
-dist/
 build/
 
 # ML artifacts (large binary files)
